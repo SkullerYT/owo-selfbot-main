@@ -1,0 +1,19 @@
+{
+  "name": "self-bot",
+  "version": "1.0.2",
+  "description": "Ain't the best self-bot, but worth a try",
+  "main": "main.js",
+  "scripts": {
+    "start": "node .",
+    "test": "node ./Discord-self-bot/config.js",
+    "dev": "node ./Discord-self-bot/main.js"
+  },
+  "author": "Eternity_VN",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^2.3.6",
+    "express": "^4.18.1",
+    "inquirer": "^8.2.4",
+    "path": "^0.12.7"
+  }
+}
